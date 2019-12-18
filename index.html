@@ -1,0 +1,304 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Programming Ninja</title>
+</head>
+<style>
+header{
+    background:url('https://images.unsplash.com/photo-1547997853-17516ad3266f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+@media screen and (max-width: 670px) {
+    header
+    {
+        min-height: 60%;
+    }
+    body
+    {
+        overflow-x: hidden;
+    }
+    .forms
+    {
+        padding-left: 0!important;
+        padding-top: 0!important;
+    }
+}
+.section
+{
+    padding-top: 20px;
+}
+.tabs .indicator
+{
+    background-color: #1a237e;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active
+{
+    background:transparent;
+}
+</style>
+<body>
+  <!-- navbar -->
+<header>
+    <nav class="nav-wrapper transparent">
+        <div class="container">
+            <a href="#" class="brand-logo" style="font-size: 20px;">
+                Nishant Pandey
+            </a>
+            <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down black-text">
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li><a href="" class="tooltipped btn-floating black" data-tooltip="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a></li>
+                <li><a href="" class="tooltipped btn-floating black" data-tooltip="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a></li>
+                <li><a href="" class="tooltipped btn-floating black" data-tooltip="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a></li>
+            </ul>
+            <ul class="sidenav grey lighten-2" id="mobile-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+  <!-- photo / grid -->
+  <section class="container section scrollspy" id="projects">
+    <div class="row">
+        <div class="col s12 l4">
+            <img src="icon.jpeg" class="responsive-img" style="height: 50%;" alt="">
+        </div>
+        <div class="col s12 l6 offset-l1">
+            <h4 class="indigo-text ">Knowledge_page</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, quam, architecto blanditiis 
+          illum nihil iusto, eos provident consequatur repellat accusamus 
+          numquam nisi assumenda quos. Voluptatibus distinctio suscipit maiores 
+          tenetur exercitationem.<p>
+                  <div>
+                  <a href="app.apk" download="Knowledge.apk" class="amber-text">More Details...</a>
+                  </div>
+        </div>
+    </div>
+    <div class="row">
+        
+        <div class="col s12 l6">
+            <h4 class="indigo-text ">World_Clock</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, quam, architecto blanditiis 
+          illum nihil iusto, eos provident consequatur repellat accusamus 
+          numquam nisi assumenda quos. Voluptatibus distinctio suscipit maiores 
+          tenetur exercitationem.<p>
+                  <div>
+                  <a href="wclock.apk" download='Wclock.apk' class="amber-text">More Details...</a>
+                  </div>
+        </div>
+        <div class="col s12 l4 offset-l1">
+            <img src="https://images6.alphacoders.com/311/thumb-1920-311701.jpg" class="responsive-img" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 l4">
+            <img src="family.jpg" class="responsive-img" alt="">
+        </div>
+        <div class="col s12 l6 offset-l1">
+            <h4 class="indigo-text ">Family_Fashion</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, quam, architecto blanditiis 
+          illum nihil iusto, eos provident consequatur repellat accusamus 
+          numquam nisi assumenda quos. Voluptatibus distinctio suscipit maiores 
+          tenetur exercitationem.<p>
+                  <div>
+                  <a href="http://familyfashion2.000webhostapp.com/main.php" class="amber-text">More Details...</a>
+                  </div>
+        </div>
+    </div>
+
+  </section>
+
+  <!-- parallax -->
+<div class="parallax-container">
+    <div class="parallax">  
+        <img src="parallex.jpg" class="responsive-img" alt="">
+    </div>
+</div>
+  <!-- services / tabs -->
+<section class="container section scrollspy" id="services">
+    <div class="row">
+        <div class="col s12 l4">
+            <h2 class="indigo-text">What I do</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Praesentium nam quam similique atque cu
+                mque dolor! Distinctio eaque similique et repellendus ullam maxime 
+                adipisci, ipsam, dolorem vero ducimus, fuga quod id.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Praesentium nam quam similique atque cu
+                mque dolor! Distinctio eaque similique et repellendus ullam maxime 
+                adipisci, ipsam, dolorem vero ducimus, fuga quod id.
+            </p>
+        </div>
+        <div class="col s12 l6 offset-l2">
+            <ul class="tabs">
+                <li class="tab col s6">
+                    <a href="#web" class="indigo-text text-darken-4">Web development</a>
+                </li>
+                <li class="tab col s6">
+                    <a href="#app" class="indigo-text text-darken-4">App Development</a>
+                </li>
+            </ul>
+            <div class="col s12" id="web">
+                <p class="flow-text indigo-text">Web Development</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, eum explicabo.
+                    Id sint accusantium maxime quo voluptas, placeat, ullam hic 
+                   adipisci iusto nulla quas dignissimos culpa sapiente at aperiam qui.</p>
+            </div>
+            <div class="col s12" id="app">
+                <p class="flow-text indigo-text">App Development</p>
+                <p>Difficulty on insensible reasonable in. From as went he they. 
+                Preference themselves me as thoroughly partiality considered on in estimating. 
+                Middletons acceptance discovered projecting so is so or. In or attachment inquietude
+                 remarkably comparison at an. Is surrounded prosperous stimulated am me discretion expression
+                 . But truth being state can she china widow. Occasional preference fat remarkably now projecting. </p>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- parallax -->
+<div class="parallax-container">
+    <div class="parallax">  
+        <img src="parallex2.jpg" class="responsive-img" alt="">
+    </div>
+</div>
+<!-- About me -->
+<section class="container section scrollspy" id="aboutme">
+    <div class="row">
+      </div>              
+</section>
+  <!-- contact form -->
+<section class="container section scrollspy" id="contact">
+    <div class="row">
+        <div class="col s12 l5">
+          <div class="card">
+            <div class="card-image" >
+              <img src="nishant.jpg" class="responsive-img">
+              <span class="card-title">Nishant Pandey</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red pulse"><i class="material-icons">favorite</i></a>
+            </div>
+            <div class="card-content">
+              <p>Hello I am Nishant , currently perceiving 2nd year engineering from Vidyalankar
+                  Institute of Technology.
+                  My skills:
+                  Web development,
+                  Android/IOS app development,
+                  Python , Java, Sql.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l6 offset-1 forms" style="padding-top: 50px;padding-left: 100px;">
+            <h4 class="indigo-text center">Get in touch</h4>
+            <form action="">
+                <div class="input-field">
+                    <i class="material-icons prefix">email</i>
+                    <input type="email" id="email">
+                    <label for="email">Your email</label>
+                </div>
+                <div class="input-field">
+                    <i class="material-icons prefix">message</i>
+                    <textarea id="message" class="materialize-textarea"></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <div class="input-field">
+                    <i class="material-icons prefix">date_range</i>
+                    <input type="text" class="datepicker" id="date">
+                    <label for="date">Choose date for appointment</label>
+                </div>
+                <div class="input-field">
+                    <p>
+                        Services required..
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox">
+                            <span>Web Development</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="checkbox">
+                            <span>App Development</span>
+                        </label>
+                    </p>
+                </div>
+                <div class="input-field center" style="padding-top: 20px;">
+                <button class="btn  purple lighten-1">
+                    Submit 
+                 </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+  <!-- footer -->
+<footer class="page-footer grey darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 l6">
+                <h5>About us</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, distinctio 
+                    nostrum! Necessitatibus expedita maiores modi accusamus. Voluptatibus culpa eum, eveniet 
+                    debitis aliquam adipisci numquam sed ullam eaque. Iusto, asperiores numquam.
+                </p>
+            </div>
+            <div class="col s12 l4 offset-2 right">
+                <h5>Connect</h5>
+                <ul>
+                    <li><a href="#" class="grey-text text-lighten-3">Facebook</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">Instagram</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">Twitter</a></li>
+                    <li><a href="#" class="grey-text text-lighten-3">Linked ln</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+        <div class="container center-align">
+            &copy; 2019 Nishant Pandey
+        </div>
+    </div>
+</footer>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.parallax').parallax();    
+        $('.tabs').tabs();
+        $('.datepicker').datepicker({
+            disableWeekends:true
+        });
+        $('.tooltipped').tooltip();
+        $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+</html>
